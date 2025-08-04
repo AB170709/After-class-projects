@@ -1,0 +1,4 @@
+body{background-color: bisque; background-repeat: round;}
+p{;font-size: larger; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: bold;}
+#grad1{height: 200xp; background: linear-gradient(red, orange, blue, green);}
+

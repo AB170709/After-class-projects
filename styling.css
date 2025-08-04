@@ -1,0 +1,10 @@
+p{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: larger; font-weight: bolder; font-style: oblique; color: blueviolet;}
+div{width: 300px;height: 100px;background-color: blanchedalmond;border: 1xp solid black;}
+#mydiv{transform: rotateX(180deg)}
+h1{text-decoration: overline; text-transform: capitalize;}
+h2{text-decoration: line-through; text-transform: uppercase;}
+h3{text-decoration: underline; text-transform: lowercase;}
+h4{text-decoration: underline overline; text-transform: inherit;}
+#text{text-shadow: 2px 2px 1px #CC5500;}
+#box{box-shadow: 9px 9px 5px #301934;}
+#indent{text-indent: 45%;}
