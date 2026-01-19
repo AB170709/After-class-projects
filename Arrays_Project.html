@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>javascript arrays</h2>
+    <p>do a calculation and then display the result</p>
+
+    <p id="demo"></p>
+    <script>
+        function add(a,b){
+            return a+b;
+        }
+        function average(a,b){
+            return add(a,b)/2;
+        }
+        let result=average(10,20);
+        document.getElementById("demo").innerHTML=result;
+         
+    </script>
+
+    <p>the join method joins array elements into a string and pop element removes the last element from an array</p>
+    <p id="myjoin"></p>
+    <p id="myfirstpop"></p>
+    <p id="mysecondpop"></p>
+
+    <script>
+        var fruits=["banana", "orange", "apple", "mango"];
+
+        document.getElementById("myjoin").innerHTML=fruits.join("*");
+        document.getElementById("myfirstpop").innerHTML=fruits;
+        fruits.pop();
+        document.getElementById("mysecondpop").innerHTML=fruits
+    </script>
+
+</body>
+</html>
