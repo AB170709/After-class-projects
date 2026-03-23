@@ -1,0 +1,69 @@
+.html{scroll-behavior: smooth;}
+
+.body{background: goldenrod;
+font-family: "baloo tamaa 2", cursive;}
+
+.m-heading{font-family: "roboto slab", serif;}
+
+.text-white{color: orangered;}
+
+.main-container{height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-image: url('cwc_final_2019.jpg');
+background-attachment: fixed;
+background-size: cover;}
+
+.main-row{display: flex;
+justify-content: center;
+align-items: center;}
+
+.main-row h1{font-size: 5rem;}
+
+.main-row img{width: auto;
+height: 100vh;}
+
+
+/* Global Properties */
+
+html {
+
+scroll-behavior: smooth;
+
+}
+
+body {
+
+background: #252525;
+
+font-family: "Baloo Tamma 2", cursive;
+
+}
+
+/* Main Heading Font */
+
+.m-heading {
+
+font-family: "Roboto Slab", serif;
+
+}
+
+/* Navigation */
+
+.navigation-link {
+
+border: 2px solid transparent;
+
+}
+
+.navigation-link:hover {
+
+text-decoration: none;
+
+border-bottom: 2px solid #f5ba09;
+
+transition: 0.5s ease;
+
+}
